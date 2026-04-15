@@ -3,7 +3,7 @@ on:
     workflow_dispatch
 jobs:
     teste:
-        runs-on: [my-runner]
+        runs-on: [my-runner, self-hosted]
         steps: 
             - name: Fake Task
               run: echo "Teste self runner"
